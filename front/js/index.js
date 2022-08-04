@@ -74,7 +74,7 @@
 // ]
 
 function kanape_to_html(data){
-	return `<a href="/html/product.html?_id=${data._id}">
+	return `<a href="./product.html?_id=${data._id}">
   <article class="kanape">
   <img src="${data.imageUrl}" alt="">
   <div class="description">

@@ -85,7 +85,7 @@ fetch('http://localhost:3000/api/products/'+id)
     
   })
   .catch(function(error){
-  	console.log(error)
+  	console.log(error);
   })
 
  

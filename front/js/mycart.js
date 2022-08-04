@@ -83,7 +83,7 @@ const validFirstName = function (input) {
     fieldsErrors["firstname"] = false
   } else {
     //ko
-    ErrorMsg.innerText = "KO";
+    ErrorMsg.innerText = "entre 1 et 100 caractères";
     fieldsErrors["firstname"] = true
   }
 
@@ -98,7 +98,7 @@ const validLastName = function (input) {
     fieldsErrors["lasttname"] = false
   } else {
     //ko
-    lastNameErrorMsg.innerText = "KO";
+    lastNameErrorMsg.innerText = "entre 2 et 100 caractères";
     fieldsErrors["lasttname"] = true
   }
 
